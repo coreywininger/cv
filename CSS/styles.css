@@ -17,7 +17,7 @@ h2 {
   font-family: 'Hind', sans-serif;
   color: #738598;
   font-size: 3rem;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 h3 {
@@ -35,10 +35,43 @@ a {
   color: #738598;
 }
 .footer-link {
-  color: #dfe2e2
+  color: #dfe2e2;
+  font-size: 1.4rem;
+  font-family: 'Gloria+Hallelujah', monospace;
+  padding: 20px 20px 35px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color:#3D3D3D;
 }
 .btn {
-  color: #738598;
+  background: #1CB3C8;
+  background-image: -webkit-linear-gradient(top, #1CB3C8, #1AA4B8);
+  background-image: -moz-linear-gradient(top, #1CB3C8, #1AA4B8);
+  background-image: -ms-linear-gradient(top, #1CB3C8, #1AA4B8);
+  background-image: -o-linear-gradient(top, #1CB3C8, #1AA4B8);
+  background-image: linear-gradient(top, #1CB3C8, #1AA4B8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 50px;
+  font-size: 27px;
+  padding: 10px 20px 10px 20px;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: none;
+  font-family: 'Gloria+Hallelujah', monospace;
+  box-shadow: inset 1px 1px 10px #738598, 0 1px 3px rgba(0,0,0,0.3);
+  border: solid #dfe2e2 1px;
+  color: #dfe2e2;
+}
+
+.btn:hover {
+  background: #738598;
+  background-image: -webkit-linear-gradient(top, #1CB3C8, #738598);
+  background-image: -moz-linear-gradient(top, #1CB3C8, #738598);
+  background-image: -ms-linear-gradient(top, #1CB3C8, #738598);
+  background-image: -o-linear-gradient(top, #1CB3C8, #738598);
+  background-image: linear-gradient(top, #1CB3C8, #738598);
+  text-decoration: none;
 }
 .JobT {
   font-family: 'Gloria+Hallelujah', monospace;
@@ -94,13 +127,18 @@ a {
 
 .bottom-container {
   background-color: #1cb3c8;
+  padding: 40px 40px 0 40px;
 }
 
 .profile-pic {
-  padding-top: 100px;
-  width: 200px;
-  height: auto;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 60px 20px 20px 20px;
+
+    object-fit: cover;
+    object-position: center right;
+
 
 }
 
@@ -133,7 +171,7 @@ a {
 }
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 90px auto;
   text-align: left;
   line-height: 2;
 }
@@ -147,33 +185,83 @@ a {
   font-family: 'Hind', sans-serif;
   color: #738598;
   font-size: 3rem;
-  padding-top: 50px;
+  padding-top: 25px;
+  margin-top: 0;
 }
 .Skills {
   margin-bottom: 0;
+  padding-top: 50px;
+}
+.Skills {
+  margin-bottom: 50px;
 }
 .stratdesc {
   display: table;
   text-align: left;
+  font-family: 'Hind', monospace;
 }
 .OpsMan {
   display: table;
   text-align: left;
+  font-family: 'Hind', monospace;
 
 }
 .acq {
   display: table;
   text-align: left;
   padding-left: 40px;
+  font-family: 'Hind', monospace;
 }
 .cbio {
   display: inline-block;
   line-height: 2;
   text-align: left;
   width: 50%;
+  font-family: 'Hind', monospace;
 }
 .intS {
   display: table;
   text-align: left;
   padding-left: 40px;
+  margin-bottom: 50px;
+  font-family: 'Hind', monospace;
+}
+hr {
+  margin-top: 50px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #738598;
+  width: 5%;
+  border-width: 5px;
+
+}
+.hr2 {
+  padding-top: 10px;
+}
+.contact-me {
+  margin-top: : 60px;
+  padding-bottom: 120px;
+}
+.touch {
+  padding-top: 80px;
+  margin-bottom: 0;
+  font-size: 3rem;
+
+}
+.Contact-txt {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 20px auto 20px;
+  font-size: 1rem;
+  font-weight: normal;
+  width: 30%;
+}
+.passion {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+.copyright {
+  padding-top: 20px;
+  font-size: .8rem;
 }
